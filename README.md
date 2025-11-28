@@ -75,3 +75,53 @@ Siga os passos abaixo para rodar o projeto localmente.
 ```bash
 https://github.com/tassianasc/clima_agora.git
 ```
+## 🚀 Como executar o projeto
+
+### Acesse a pasta do projeto:
+```bash
+cd clima-agora
+```
+### Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
+```
+### Execute o projeto:
+```
+npx expo start
+```
+### 📱 No seu celular
+
+1. Baixe o app **Expo Go** (App Store ou Google Play).
+
+2. Escaneie o **QR Code** exibido no terminal.
+
+## 📂 Estrutura do Projeto
+
+A arquitetura segue o padrão do **Expo Router:**
+```
+clima-agora/
+├── app/
+│   ├── (tabs)/
+│   │   ├── index.tsx      # Tela Principal (Lógica do Clima)
+│   │   ├── _layout.tsx    # Configuração das Abas (Tab Navigation)
+│   │   └── explore.tsx    # Tela Secundária
+│   └── _layout.tsx        # Layout Raiz
+├── assets/                # Imagens e Fontes
+├── constants/             # Constantes globais (Cores, Configurações)
+├── components/            # Componentes reutilizáveis
+└── package.json           # Dependências e Scripts
+```
+## 🧠 Decisões Técnicas
+**Uso de TypeScript**
+
+Optou-se pelo uso de arquivos .tsx para garantir tipagem forte, permitindo definir contratos de interface como WeatherData. Isso evita erros como "undefined is not an object" ao manipular dados da API.
+
+**Gerenciamento de Estado**
+
+Utilização de useState, suficiente para a complexidade atual e evitando adicionar bibliotecas mais pesadas como Redux ou Context API sem necessidade.
+
+**Estilização Nativa**
+
+Uso de StyleSheet para garantir maior performance na renderização de componentes nativos.
