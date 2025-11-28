@@ -63,17 +63,6 @@ Este projeto foi desenvolvido com o que há de mais atual no ecossistema React N
 - **Ionicons** — Biblioteca de ícones vetoriais moderna
 
 ---
-
-## 📱 Screenshots
-
-> *(Insira os prints do aplicativo aqui.)*
-
-- **Tela Inicial (Vazia)**
-- **Busca Realizada (Sucesso)**
-- **Erro Tratado**
-
----
-
 ## 🔧 Como Executar o Projeto
 
 Siga os passos abaixo para rodar o projeto localmente.
@@ -84,5 +73,5 @@ Siga os passos abaixo para rodar o projeto localmente.
 ### 📥 1. Clone o repositório
 
 ```bash
-https://github.com/tassianasc/clima_agora.git
+git clone [https://github.com/tassianasc/clima_agora.git]
 ```
