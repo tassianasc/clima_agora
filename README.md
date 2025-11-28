@@ -20,7 +20,12 @@ A interface se adapta perfeitamente a dispositivos móveis e também funciona vi
 A forte tipagem via **TypeScript** garante maior estabilidade, legibilidade e segurança no desenvolvimento.
 
 ---
+## 🎨 Galeria de telas
 
+| Tela Inicial | Resultado | Erro |
+|--------------|-----------|------|
+| <img src="./assets/images/Screenshot_103.png" width="200" /> | <img src="./assets/images/Screenshot_104.png" width="200" /> | <img src="./assets/images/Screenshot_105.png" width="200" /> |
+---
 ## ✨ Funcionalidades (Core Features)
 
 O aplicativo contempla os requisitos funcionais e os aprimora com boas práticas modernas:
