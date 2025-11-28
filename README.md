@@ -70,8 +70,8 @@ Siga os passos abaixo para rodar o projeto localmente.
 ### ✔️ Pré-Requisitos
 - **Node.js** instalado
 
-### 📥 1. Clone o repositório
+### 📥 1. Clone o repositório - git clone
 
 ```bash
-git clone[https://github.com/tassianasc/clima_agora.git)
+https://github.com/tassianasc/clima_agora.git
 ```
